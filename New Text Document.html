@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Rouane - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 1100px;
+            margin-right: auto;
+            margin-left: auto;
+            color: #ddd;
+            background-color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+        img.profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2, h3 {
+            border-bottom: 2px solid #555;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+
+        /* Animation styles */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        body {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        section {
+            opacity: 0;
+            transition: all 1s;
+        }
+
+        section.visible {
+            animation: slideIn 1s forwards;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="file:///C:/Users/My%20LENOVO/Desktop/Saad%20Job%20search/Saad.jpg" alt="Profile Picture" class="profile-picture">
+    <h1>Saad Rouane</h1>
+    <p>6+ years of experience in Microsoft Suite, SQL, PowerBI, Tableau, and more.</p>
+</header>
+
+<section id="summary">
+    <h2>Professional Summary</h2>
+    <p>6+ Strong years’ experience in using Microsoft Suite (Management Studio, Business Intelligence Development Studio), SQL Server Integration Services (SSIS), SQL Server Reporting Services (SSRS), SQL, Powerbi, and Tableau. Quick learner who strives for new technical knowledge and always maintained positive communications and working relationships at all levels. Strong troubleshooting and problem-solving skills. Strong ability to manage and prioritize multiple projects and tasks with excellent requirement gathering skills for management and end-users.</p>
+</section>
+
+<section id="education">
+    <h2>Education & Certification</h2>
+    <h3>Master in Business Administration (MBA)</h3>
+    <p>Texas A&M University-Commerce, Commerce Texas, United States. December 2009</p>
+</section>
+
+<section id="competencies">
+    <h2>Technical Competencies</h2>
+    <ul>
+        <li>Database Tools: SQL Server Management Studio(SSMS), SQL Profiler, Query Analyzer, and more...</li>
+        <li>GUI Tools: SQL Server Business Intelligence Development Studio, Visual Studio versions...</li>
+        <li>Languages: T-SQL, Dax, XML, some Python, ASP.NET...</li>
+    </ul>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    
+    <!-- Colmore Inc. Experience -->
+    <h3>Business Intelligence Developer - Colmore Inc.</h3>
+    <p>Mar 2022 – Present</p>
+    <ul>
+        <li>Developed advanced SQL queries, T-SQL Procedures, SSIS Packages, and Power BI Funds’ performance paginated reports.</li>
+        <li>Converted FIA Front Excel legacy reports with VBA codes to Excel formulas pointing to the Data Warehouse using Power Query.</li>
+        <li>Migrated SSRS Reports to Power BI environment.</li>
+        <li>Procedure Performance tuning for faster rendering reports.</li>
+    </ul>
+
+    <!-- EECU Experience -->
+    <h3>Business Performance Analyst / BI Developer - EECU</h3>
+    <p>Jan 2021 – May 2022</p>
+    <ul>
+        <li>Improved dashboard reports using stored procedures built in SQL, Power Query, and Power Pivot in Excel.</li>
+        <li>Developed complex stored procedure in SQL for direct lending Collection and Real Estate Dashboards.</li>
+        <li>Built process improvement workflow using Visio and ETL package using SSIS for data migration.</li>
+        <li>Created and scheduled SQL agent jobs to run ETL Package and built Dashboards using SSRS.</li>
+    </ul>
+
+    <!-- Avantax Inc Experience -->
+    <h3>Financial Data Analyst II / BI Developer - Avantax Inc (Formally HD Vest)</h3>
+    <p>Oct 2018 – Jan 2021</p>
+    <ul>
+        <li>Prepared and analyzed company monthly financial and operational reports using Excel and Tableau.</li>
+        <li>Built robust data mart for financial advisors production using ETL packages from Excel to OLTP.</li>
+        <li>Built a .NET application using C# to extract Excel files and load in SQL database.</li>
+        <li>Developed Cascading parameterized SSRS reports and used cubes as an OLAP mode for financial reporting in Tableau.</li>
+    </ul>
+
+    <!-- Kibo Software Inc Experience -->
+    <h3>SQL BI / Tableau Developer - Kibo Software Inc.</h3>
+    <p>Apr 2015 – Oct 2017</p>
+    <ul>
+        <li>Created Business Intelligent Dashboards using Tableau Desktop.</li>
+        <li>Migrated data from Excel to SFDC using Apex Data Loader.</li>
+        <li>Optimized performance of queries with T-SQL, normalized tables, and created indexes.</li>
+        <li>Built SSIS packages to perform ETL operations and load data into Data Warehouse.</li>
+    </ul>
+
+    <!-- IPeople Software Experience -->
+    <h3>SQL Server/ ETL Developer - IPeople Software</h3>
+    <p>Mar 2014 – Apr 2015</p>
+    <ul>
+        <li>Designed SSIS packages to transform and load data from OLTP databases to the new Data Warehouse.</li>
+        <li>Created complex SSIS packages with error handling.</li>
+        <li>Used Notification Services to create alerts and email notifications for SSIS packages.</li>
+        <li>Configured SQL mail agent for sending automatic emails for SSIS packages.</li>
+    </ul>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Check out my Power BI reports repository <a href="https://app.powerbi.com/groups/me/reports/bc0ead00-a424-4a31-8e38-ce40aca4679b/ReportSectioncffdcfdb95a26695a758?experience=power-bi" target="_blank">here</a>.</p> <!-- Replace YOUR_LINK_HERE with your actual link -->
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: Dallas1199@hotmail.com</p>
+    <p>Phone: (469) 237-5553</p>
+</section>
+
+<script>
+    // JavaScript to detect when sections become visible
+    let sections = document.querySelectorAll('section');
+
+    function checkVisibility() {
+        sections.forEach(section => {
+            let rect = section.getBoundingClientRect();
+            if (rect.top <= (window.innerHeight || document.documentElement.clientHeight) && rect.bottom >= 0) {
+                section.classList.add('visible');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', checkVisibility);
+    window.addEventListener('scroll', checkVisibility);
+</script>
+</body>
+</html>
